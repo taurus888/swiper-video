@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+#certify {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto
+}
+
+#certify .swiper-container {
+	padding-bottom: 60px;
+}
+
+#certify  .swiper-slide {
+	width: 500px;
+	height: auto;
+	background: #fff;
+	box-shadow: 0 8px 10px #e9e9e9;
+}
+#certify  .swiper-slide video{
+	width: 100%;
+}
+#certify  .swiper-slide img{
+	display:block;
+}
+#certify  .swiper-slide p {
+	line-height: 98px;
+	padding-top: 0;
+	text-align: center;
+	color: #636363;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 20px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	background-color: #0b0627;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-slide-prev{
+	position: relative;
+	background-color: #000;
+}
+#certify .swiper-slide-prev video{
+	opacity: 0.5;
+}
+
+#certify .swiper-slide-next{
+	position: relative;
+	background-color: #000;
+}
+#certify .swiper-slide-next video{
+	opacity: 0.5;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	background-color: #ff0e27;
+}
+
+#certify .swiper-button-prev {
+	left: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/wm_button_icon.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+#certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%
+}
+
+#certify .swiper-button-next {
+	right: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/wm_button_icon.png) no-repeat;
+	background-position: 0 -93px;
+	background-size: 100%;
+}
+
+#certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%
+}
